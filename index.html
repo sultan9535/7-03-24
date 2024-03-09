@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipe Cards</title>
+</head>
+<style>
+    body{
+        background-image: url(https://previews.123rf.com/images/summertimeau/summertimeau1901/summertimeau190100019/115913208-bakery-seamless-pattern-food-vector-background-of-black-and-white-color-hand-drawn-cute-sweets-cakes.jpg);
+        background-size: contain;
+      
+    }
+    h1{
+        text-align: center;
+        color: red;
+    }
+    .cards{
+        display: flex;
+        padding: 10px;
+        justify-content: space-around;
+        margin-top: 150px;
+    }
+    #card1{
+        border: 0.1px solid black;
+    }
+    #card1:hover{
+        box-shadow: 3px 3px 3px 3px black;
+        transform: scaleY(30deg);
+        transition: 0.5s;
+    }
+    #a{
+        text-align: center;
+        font-weight: bold;
+    }
+    #a1{
+        text-align: center;
+    }
+    #ingridients{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    #INSTRUCTIONS{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .main{
+        display: none;
+    }
+    .main:target{
+        display: block;
+    }
+    .items{
+        text-align: center;
+        margin-top: 50px;
+    }
+    #aa{
+        text-decoration: none;
+        background-color:honeydew;
+        padding: 10px;
+        border-radius: 30px;
+    }
+    #aa:hover{
+        background-color: black;
+        color: white;
+    }
+</style>
+
+<body>
+    <h1>Receipe Cards</h1>
+    <div class="items">
+    <a id="aa" href="#chicken">CHICKEN</a>
+    <a id="aa" href="#noodles">NOODLES</a>
+    <a id="aa" href="#soups">SOUPS</a>
+    <a id="aa" href="#starters">STARTERS</a>
+    <a id="aa" href="#specials">SPECIALS</a></div>
+    <div class="main" id="chicken">
+        <div class="cards">
+            <div id="card1">
+                <p id="a">Item</p>
+                <p id="a1">Chicken Soup with Caramelized Ginger</p>
+                <img id="pic1" src="https://20fix.com/xfood/img/chicken-soup-with-caramelized-ginger.jpg">
+                <div id=ingridients><details><summary>INGRIDIENTS</summary>
+<pre>
+    1:"1/2 bunch cilantro, divided"
+    2:"2 Tbsp. sugar"
+    3:"1 (6") piece ginger, peeled, thinly sliced<br>into rounds"
+    4:"3 garlic cloves, thinly sliced"
+    5:"4 scallions, pale-green and white parts left whole,<br>dark-green parts thinly sliced lengthwise"
+    6:"1 1/2 lb. skinless, boneless chicken thighs"
+    7:"1 Fresno chile, halved, seeds removed"
+    8:"Kosher salt"
+    9:"2 Tbsp. soy sauce"
+    10:"Freshly ground black pepper"
+</pre>
+                </details></div>
+                <div id="INSTRUCTIONS">
+                    <details><summary>INSTRUCTIONS</summary>
+                        <summary><p id=b>"Gather half of cilantro into a bundle and tie together with kitchen twine. Coarsely chop remaining cilantro (stems and all); set aside for serving. Heat sugar and 3 Tbsp. water in a large saucepan over medium. Cook, stirring often, until sugar dissolves, about 2 minutes. Continue to cook, swirling pan occasionally, until syrup is golden amber, 4–6 minutes. Add ginger and cook, stirring occasionally, until ginger is softened slightly, about 5 minutes. Add garlic and pale-green and white scallion parts and cook, stirring often, until garlic is fragrant, about 2 minutes. </p></summary>
+                    </details>
+                </div>
+            </div>
+            <div id="card1">
+                <p id="a">Item</p>
+                <p id="a1">Feel-Good Chicken Soup</p>
+                <img id="pic1" src="https://20fix.com/xfood/img/feel-good-asian-style-chicken-soup-donna-hay.jpg">
+                <div id=ingridients><details><summary>INGRIDIENTS</summary>
+<pre>
+    1:"2 liters Asian-Style Poached Chicken stock"
+    2:"1 tablespoon finely shredded ginger"
+    3:"2 tablespoons soy sauce"
+    4:"1 bunch gai lan (Chinese broccoli) (300g), trimmed"
+    5:"1 quantity shredded Asian-Style Poached Chicken (see basic recipe), heated through"
+    6:"3 green onions (scallions), sliced"
+    7:"2 long green chiles, thinly sliced"
+</pre>
+                </details></div>
+                <div id="INSTRUCTIONS">
+                    <details><summary>INSTRUCTIONS</summary>
+                        <summary><p id=b>"Gather half of cilantro into a bundle and tie together with kitchen twine. Coarsely chop remaining cilantro (stems and all); set aside for serving. Heat sugar and 3 Tbsp. water in a large saucepan over medium. Cook, stirring often, until sugar dissolves, about 2 minutes. Continue to cook, swirling pan occasionally, until syrup is golden amber, 4–6 minutes. Add ginger and cook, stirring occasionally, until ginger is softened slightly, about 5 minutes. Add garlic and pale-green and white scallion parts and cook, stirring often, until garlic is fragrant, about 2 minutes. </p></summary>
+                    </details>
+                </div>
+            </div>
+            <div id="card1">
+                <p id="a">Item</p>
+                <p id="a1">Gingery Chicken Soup with Zucchini “Noodles</p>
+                <img id="pic1" src="https://20fix.com/xfood/img/gingery-chicken-soup-with-zucchini-noodles.jpg">
+                <div id=ingridients><details><summary>INGRIDIENTS</summary>
+<pre>
+    1:"4 medium carrots (about 1 1/4 pounds), divided"
+2:"3 (3") pieces ginger, unpeeled"
+3:"1 (3 1/2-4 pound) whole chicken"
+4:"1 medium onion, unpeeled, cut into sixths"
+5:"3 celery stalks, cut into 2" pieces"
+6:"1 head of garlic, halved crosswise"
+7:"1 tablespoon black peppercorns"
+8:"Handful of cilantro stems, plus leaves (for serving; optional)"
+9:"2 medium zucchini (about 10 ounces)"
+10:"2 teaspoons kosher salt, plus more"
+11:"3/4 teaspoon freshly ground black pepper, plus more"
+12:"Lime wedges (for serving; optional)"
+13:"A large stockpot (at least 8 quarts)
+</pre>
+                </details></div>
+                <div id="INSTRUCTIONS">
+                    <details><summary>INSTRUCTIONS</summary>
+                        <summary><p id=b>"Scrub 2 carrots and cut into 2" pieces. Finely grate ginger to yield 1 tsp., then thinly slice remaining ginger. Place chopped carrots, ginger slices, chicken, onion, celery, garlic, peppercorns, and cilantro stems, if using, in stockpot. Fill with cold (preferably filtered) water to cover (about 4 quarts). Cover and heat over high until mixture comes to a low boil. Immediately reduce heat to medium-low and bring to a simmer.</p></summary>
+                    </details>
+                </div>
+            </div>
+            <div id="card1">
+                <p id="a">Item</p>
+                <p id="a1">Turmeric-Ginger Chicken Soup</p>
+                <img id="pic1" src="https://20fix.com/xfood/img/turmeric-ginger-chicken-soup.jpg">
+                <div id=ingridients><details><summary>INGRIDIENTS</summary>
+<pre>
+    1:"1 (3 1/2-4-pound) chicken"
+2:"2 medium onions, unpeeled, quartered"
+3:"2 heads of garlic, halved crosswise"
+4:"1 (4-inch) piece ginger, unpeeled, thinly sliced"
+5:"3 dried bay leaves"
+6:"1 tablespoon ground turmeric"
+7:"2 teaspoons black peppercorns"
+8:"2 teaspoons coriander seeds"
+9:"Kosher salt"
+10:"12 ounces carrots (about 4 medium), peeled, cut into 1/2-inch pieces on a diagonal"
+11:"8 ounces dried udon noodles"
+12:"Scallions, very thinly sliced"
+13:"Chili oil (for serving)"
+</pre>
+                </details></div>
+                <div id="INSTRUCTIONS">
+                    <details><summary>INSTRUCTIONS</summary>
+                        <summary><p id=b>Place chicken, onions, garlic, ginger, bay leaves, turmeric, peppercorns, coriander seeds, and several pinches of salt in a large pot. Pour in cold water to cover and bring to a boil over medium heat. Reduce heat and gently simmer until an instant-read thermometer inserted into the thickest part of breast registers 155°F, 30–35 minutes. Transfer chicken to a plate and let cool slightly; keep stock simmering. Remove skin from chicken; discard. Pull meat from bones and shred into bite-size pieces; set aside. Return bones and carcass to stock. </p></summary>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main" id="noodles">
+        <div class="cards">
+            <div id="card1">
+                <p id="a">Item</p>
+                <p id="a1">Chicken Soup with Caramelized Ginger</p>
+                <img id="pic1" src="https://20fix.com/xfood/img/chicken-soup-with-caramelized-ginger.jpg">
+                <div id=ingridients><details><summary>INGRIDIENTS</summary>
+<pre>
+    1:"1/2 bunch cilantro, divided"
+    2:"2 Tbsp. sugar"
+    3:"1 (6") piece ginger, peeled, thinly sliced<br>into rounds"
+    4:"3 garlic cloves, thinly sliced"
+    5:"4 scallions, pale-green and white parts left whole,<br>dark-green parts thinly sliced lengthwise"
+    6:"1 1/2 lb. skinless, boneless chicken thighs"
+    7:"1 Fresno chile, halved, seeds removed"
+    8:"Kosher salt"
+    9:"2 Tbsp. soy sauce"
+    10:"Freshly ground black pepper"
+</pre>
+                </details></div>
+                <div id="INSTRUCTIONS">
+                    <details><summary>INSTRUCTIONS</summary>
+                        <summary><p id=b>"Gather half of cilantro into a bundle and tie together with kitchen twine. Coarsely chop remaining cilantro (stems and all); set aside for serving. Heat sugar and 3 Tbsp. water in a large saucepan over medium. Cook, stirring often, until sugar dissolves, about 2 minutes. Continue to cook, swirling pan occasionally, until syrup is golden amber, 4–6 minutes. Add ginger and cook, stirring occasionally, until ginger is softened slightly, about 5 minutes. Add garlic and pale-green and white scallion parts and cook, stirring often, until garlic is fragrant, about 2 minutes. </p></summary>
+                    </details>
+                </div>
+            </div>
+            <div id="card1">
+                <p id="a">Item</p>
+                <p id="a1">Feel-Good Chicken Soup</p>
+                <img id="pic1" src="https://20fix.com/xfood/img/feel-good-asian-style-chicken-soup-donna-hay.jpg">
+                <div id=ingridients><details><summary>INGRIDIENTS</summary>
+<pre>
+    1:"2 liters Asian-Style Poached Chicken stock"
+    2:"1 tablespoon finely shredded ginger"
+    3:"2 tablespoons soy sauce"
+    4:"1 bunch gai lan (Chinese broccoli) (300g), trimmed"
+    5:"1 quantity shredded Asian-Style Poached Chicken (see basic recipe), heated through"
+    6:"3 green onions (scallions), sliced"
+    7:"2 long green chiles, thinly sliced"
+</pre>
+                </details></div>
+                <div id="INSTRUCTIONS">
+                    <details><summary>INSTRUCTIONS</summary>
+                        <summary><p id=b>"Gather half of cilantro into a bundle and tie together with kitchen twine. Coarsely chop remaining cilantro (stems and all); set aside for serving. Heat sugar and 3 Tbsp. water in a large saucepan over medium. Cook, stirring often, until sugar dissolves, about 2 minutes. Continue to cook, swirling pan occasionally, until syrup is golden amber, 4–6 minutes. Add ginger and cook, stirring occasionally, until ginger is softened slightly, about 5 minutes. Add garlic and pale-green and white scallion parts and cook, stirring often, until garlic is fragrant, about 2 minutes. </p></summary>
+                    </details>
+                </div>
+            </div>
+            <div id="card1">
+                <p id="a">Item</p>
+                <p id="a1">Gingery Chicken Soup with Zucchini “Noodles</p>
+                <img id="pic1" src="https://20fix.com/xfood/img/gingery-chicken-soup-with-zucchini-noodles.jpg">
+                <div id=ingridients><details><summary>INGRIDIENTS</summary>
+<pre>
+    1:"4 medium carrots (about 1 1/4 pounds), divided"
+2:"3 (3") pieces ginger, unpeeled"
+3:"1 (3 1/2-4 pound) whole chicken"
+4:"1 medium onion, unpeeled, cut into sixths"
+5:"3 celery stalks, cut into 2" pieces"
+6:"1 head of garlic, halved crosswise"
+7:"1 tablespoon black peppercorns"
+8:"Handful of cilantro stems, plus leaves (for serving; optional)"
+9:"2 medium zucchini (about 10 ounces)"
+10:"2 teaspoons kosher salt, plus more"
+11:"3/4 teaspoon freshly ground black pepper, plus more"
+12:"Lime wedges (for serving; optional)"
+13:"A large stockpot (at least 8 quarts)
+</pre>
+                </details></div>
+                <div id="INSTRUCTIONS">
+                    <details><summary>INSTRUCTIONS</summary>
+                        <summary><p id=b>"Scrub 2 carrots and cut into 2" pieces. Finely grate ginger to yield 1 tsp., then thinly slice remaining ginger. Place chopped carrots, ginger slices, chicken, onion, celery, garlic, peppercorns, and cilantro stems, if using, in stockpot. Fill with cold (preferably filtered) water to cover (about 4 quarts). Cover and heat over high until mixture comes to a low boil. Immediately reduce heat to medium-low and bring to a simmer.</p></summary>
+                    </details>
+                </div>
+            </div>
+            <div id="card1">
+                <p id="a">Item</p>
+                <p id="a1">Turmeric-Ginger Chicken Soup</p>
+                <img id="pic1" src="https://20fix.com/xfood/img/turmeric-ginger-chicken-soup.jpg">
+                <div id=ingridients><details><summary>INGRIDIENTS</summary>
+<pre>
+    1:"1 (3 1/2-4-pound) chicken"
+2:"2 medium onions, unpeeled, quartered"
+3:"2 heads of garlic, halved crosswise"
+4:"1 (4-inch) piece ginger, unpeeled, thinly sliced"
+5:"3 dried bay leaves"
+6:"1 tablespoon ground turmeric"
+7:"2 teaspoons black peppercorns"
+8:"2 teaspoons coriander seeds"
+9:"Kosher salt"
+10:"12 ounces carrots (about 4 medium), peeled, cut into 1/2-inch pieces on a diagonal"
+11:"8 ounces dried udon noodles"
+12:"Scallions, very thinly sliced"
+13:"Chili oil (for serving)"
+</pre>
+                </details></div>
+                <div id="INSTRUCTIONS">
+                    <details><summary>INSTRUCTIONS</summary>
+                        <summary><p id=b>Place chicken, onions, garlic, ginger, bay leaves, turmeric, peppercorns, coriander seeds, and several pinches of salt in a large pot. Pour in cold water to cover and bring to a boil over medium heat. Reduce heat and gently simmer until an instant-read thermometer inserted into the thickest part of breast registers 155°F, 30–35 minutes. Transfer chicken to a plate and let cool slightly; keep stock simmering. Remove skin from chicken; discard. Pull meat from bones and shred into bite-size pieces; set aside. Return bones and carcass to stock. </p></summary>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main" id="soups">
+        <div class="cards">
+            <div id="card1">
+                <p id="a">Item</p>
+                <p id="a1">Chicken Soup with Stars and Meatballs</p>
+                <img id="pic1" src="https://20fix.com/xfood/img/chicken-soup-with-stars-and-meatballs-239025.jpg">
+                <div id=ingridients><details><summary>INGRIDIENTS</summary>
+<pre>
+    1:"2/3 cup finely grated fresh Parmesan"
+    2:"3/4 pound ground turkey or lean ground beef"
+    3:"1/2 small onion, finely chopped"
+    4:"1/2 cup fresh bread crumbs"
+    5:"1/2 cup cooked, squeezed dry, and chopped spinach"
+    6:"1 large egg, lightly beaten"
+    7:"Coarse salt"
+    8:"2 tablespoons extra-virgin olive oil"
+    9:"8 ounces star-shape pasta (or any small pasta, such as orzo)"
+    10:"4 cups chicken stock or broth"
+</pre>
+                </details></div>
+                <div id="INSTRUCTIONS">
+                    <details><summary>INSTRUCTIONS</summary>
+                        <summary><p id=b>"1. Bring a large pot of salted water to a boil. 2. Set aside 4 tablespoons of the cheese. 3. Combine the ground meat, onion, bread crumbs, spinach, egg, 3/4 teaspoon of the salt, and the remaining cheese in a medium bowl. Shape into 30 meatballs, each 1 inch in diameter. 4. Heat the oil in a large, heavy skillet over medium-high heat until hot but not smoking.</p></summary>
+                    </details>
+                </div>
+            </div>
+            <div id="card1">
+                <p id="a">Item</p>
+                <p id="a1">Vietnamese Chicken Soup With Rice</p>
+                <img id="pic1" src="https://20fix.com/xfood/img/vietnamese-chicken-soup-with-rice.jpg">
+                <div id=ingridients><details><summary>INGRIDIENTS</summary>
+<pre>
+    1:"2 skinless, boneless chicken thighs"
+    2:"1 (4x4-inch) piece dried kombu"
+    3:"1 (2-inch) piece ginger, peeled, crushed"
+    4:"3 star anise pods"
+    5:"1 (2-inch) cinnamon stick"
+    6:"2 whole cloves"
+    7:"4 cups chicken stock or low-sodium chicken broth"
+    8:"1 cup glutinous (sticky) rice or sushi rice, rinsed"
+    9:"1 tablespoon (or more) fish sauce"
+    10:"1 teaspoon palm or light brown sugar"
+    11:"1 scallion, thinly sliced"
+    12:"1 jalapeño, thinly sliced"
+    13:"1/2 cup cilantro leaves with tender stems"
+    14:"1/4 cup thinly sliced white onion"
+</pre>
+                </details></div>
+                <div id="INSTRUCTIONS">
+                    <details><summary>INSTRUCTIONS</summary>
+                        <summary><p id=b>Bring chicken, kombu, ginger, star anise, cinnamon, cloves, stock, and 2 cups water to a simmer in a large pot over medium heat. Reduce heat to maintain a low simmer and cook until chicken is tender. Transfer chicken to a plate. Strain broth through a fine-mesh sieve into a large bowl; discard solids. Return broth to pot and add rice, fish sauce, and palm sugar. Bring to a simmer and cook until rice is very tender, 18–20 minutes.</p></summary>
+                    </details>
+                </div>
+            </div>
+            <div id="card1">
+                <p id="a">Item</p>
+                <p id="a1">Lemony Chicken Soup with Farro</p>
+                <img id="pic1" src="https://20fix.com/xfood/img/lemony-chicken-soup-with-farro-white-beans-and-kale.jpg">
+                <div id=ingridients><details><summary>INGRIDIENTS</summary>
+<pre>
+    1:"3 tablespoons olive oil, divided"
+    2:"2 large carrots (about 10 ounces), coarsely chopped"
+    3:"2 onions, coarsely chopped, divided"
+    4:"12 garlic cloves, thinly sliced, divided"
+    5:"1 leftover roasted chicken carcass, meat picked off in large pieces and reserved, or 1 1/2 cups shredded cooked chicken"
+    6:"10 cups low-sodium chicken broth"
+    7:"1 1/2 cups whole farro"
+    8:"2 1/2 teaspoons kosher salt, divided"
+    9:"1 (15-ounce) can cannellini (white kidney) beans, drained, rinsed"
+    10:"1 cup thinly sliced Tuscan kale"
+</pre>
+                </details></div>
+                <div id="INSTRUCTIONS">
+                    <details><summary>INSTRUCTIONS</summary>
+                        <summary><p id=b>Heat 2 Tbsp. oil in a large pot over medium-high. Cook carrots, half of the onion, and 3 sliced garlic cloves, stirring occasionally, until softened and lightly browned, about 5 minutes. Add chicken carcass, if using, and broth; cover and simmer 30 minutes. (If you're not using carcass, simmer 15 minutes.) Meanwhile, toast farro in another large pot over medium heat, stirring occasionally, until it starts to brown and smells nutty, about 3 minutes. Stir in 1 tsp.</p></summary>
+                    </details>
+                </div>
+            </div>
+            <div id="card1">
+                <p id="a">Item</p>
+                <p id="a1">Spicy Feel-Good Chicken Soup</p>
+                <img id="pic1" src="https://20fix.com/xfood/img/spicy-feel-good-chicken-soup.jpg">
+                <div id=ingridients><details><summary>INGRIDIENTS</summary>
+<pre>
+    1:"Spicy Chicken Stock"
+    2:"1 (2-pound) kabocha squash"
+    3:"4 cups thin wedges mixed cabbages (such as bok choy, Napa, and savoy)"
+    4:"4 cups cooked chicken (see Spicy Chicken Stock)"
+    5:"Kosher salt, freshly ground pepper"
+    6:"1 jalapeño, thinly sliced"
+    7:"Basil leaves, cilantro leaves with tender stems, and chili oil (for serving)"
+    8:"1 (2-inch) piece ginger, peeled, finely grated"
+    9:"3 limes, cut into wedges"
+</pre>
+                </details></div>
+                <div id="INSTRUCTIONS">
+                    <details><summary>INSTRUCTIONS</summary>
+                        <summary><p id=b>Heat stock in a large pot over medium. Meanwhile, cut squash into 4 wedges and remove seeds. Cut each wedge into 4 pieces. Add squash to stock and simmer until tender, 8-10 minutes. Add cabbage and cooked chicken and cook until warmed through, about 4 minutes. Season with salt and pepper. Divide soup among bowls. Top with jalapeño and some basil and cilantro; drizzle with chili oil and finish with a pinch of ginger.</p></summary>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main" id="starters">
+        <div class="cards">
+            <div id="card1">
+                <p id="a">Item</p>
+                <p id="a1">Chicken Soup with Caramelized Ginger</p>
+                <img id="pic1" src="https://20fix.com/xfood/img/chicken-soup-with-caramelized-ginger.jpg">
+                <div id=ingridients><details><summary>INGRIDIENTS</summary>
+<pre>
+    1:"1/2 bunch cilantro, divided"
+    2:"2 Tbsp. sugar"
+    3:"1 (6") piece ginger, peeled, thinly sliced<br>into rounds"
+    4:"3 garlic cloves, thinly sliced"
+    5:"4 scallions, pale-green and white parts left whole,<br>dark-green parts thinly sliced lengthwise"
+    6:"1 1/2 lb. skinless, boneless chicken thighs"
+    7:"1 Fresno chile, halved, seeds removed"
+    8:"Kosher salt"
+    9:"2 Tbsp. soy sauce"
+    10:"Freshly ground black pepper"
+</pre>
+                </details></div>
+                <div id="INSTRUCTIONS">
+                    <details><summary>INSTRUCTIONS</summary>
+                        <summary><p id=b>"Gather half of cilantro into a bundle and tie together with kitchen twine. Coarsely chop remaining cilantro (stems and all); set aside for serving. Heat sugar and 3 Tbsp. water in a large saucepan over medium. Cook, stirring often, until sugar dissolves, about 2 minutes. Continue to cook, swirling pan occasionally, until syrup is golden amber, 4–6 minutes. Add ginger and cook, stirring occasionally, until ginger is softened slightly, about 5 minutes. Add garlic and pale-green and white scallion parts and cook, stirring often, until garlic is fragrant, about 2 minutes. </p></summary>
+                    </details>
+                </div>
+            </div>
+            <div id="card1">
+                <p id="a">Item</p>
+                <p id="a1">Feel-Good Chicken Soup</p>
+                <img id="pic1" src="https://20fix.com/xfood/img/feel-good-asian-style-chicken-soup-donna-hay.jpg">
+                <div id=ingridients><details><summary>INGRIDIENTS</summary>
+<pre>
+    1:"2 liters Asian-Style Poached Chicken stock"
+    2:"1 tablespoon finely shredded ginger"
+    3:"2 tablespoons soy sauce"
+    4:"1 bunch gai lan (Chinese broccoli) (300g), trimmed"
+    5:"1 quantity shredded Asian-Style Poached Chicken (see basic recipe), heated through"
+    6:"3 green onions (scallions), sliced"
+    7:"2 long green chiles, thinly sliced"
+</pre>
+                </details></div>
+                <div id="INSTRUCTIONS">
+                    <details><summary>INSTRUCTIONS</summary>
+                        <summary><p id=b>"Gather half of cilantro into a bundle and tie together with kitchen twine. Coarsely chop remaining cilantro (stems and all); set aside for serving. Heat sugar and 3 Tbsp. water in a large saucepan over medium. Cook, stirring often, until sugar dissolves, about 2 minutes. Continue to cook, swirling pan occasionally, until syrup is golden amber, 4–6 minutes. Add ginger and cook, stirring occasionally, until ginger is softened slightly, about 5 minutes. Add garlic and pale-green and white scallion parts and cook, stirring often, until garlic is fragrant, about 2 minutes. </p></summary>
+                    </details>
+                </div>
+            </div>
+            <div id="card1">
+                <p id="a">Item</p>
+                <p id="a1">Gingery Chicken Soup with Zucchini “Noodles</p>
+                <img id="pic1" src="https://20fix.com/xfood/img/gingery-chicken-soup-with-zucchini-noodles.jpg">
+                <div id=ingridients><details><summary>INGRIDIENTS</summary>
+<pre>
+    1:"4 medium carrots (about 1 1/4 pounds), divided"
+2:"3 (3") pieces ginger, unpeeled"
+3:"1 (3 1/2-4 pound) whole chicken"
+4:"1 medium onion, unpeeled, cut into sixths"
+5:"3 celery stalks, cut into 2" pieces"
+6:"1 head of garlic, halved crosswise"
+7:"1 tablespoon black peppercorns"
+8:"Handful of cilantro stems, plus leaves (for serving; optional)"
+9:"2 medium zucchini (about 10 ounces)"
+10:"2 teaspoons kosher salt, plus more"
+11:"3/4 teaspoon freshly ground black pepper, plus more"
+12:"Lime wedges (for serving; optional)"
+13:"A large stockpot (at least 8 quarts)
+</pre>
+                </details></div>
+                <div id="INSTRUCTIONS">
+                    <details><summary>INSTRUCTIONS</summary>
+                        <summary><p id=b>"Scrub 2 carrots and cut into 2" pieces. Finely grate ginger to yield 1 tsp., then thinly slice remaining ginger. Place chopped carrots, ginger slices, chicken, onion, celery, garlic, peppercorns, and cilantro stems, if using, in stockpot. Fill with cold (preferably filtered) water to cover (about 4 quarts). Cover and heat over high until mixture comes to a low boil. Immediately reduce heat to medium-low and bring to a simmer.</p></summary>
+                    </details>
+                </div>
+            </div>
+            <div id="card1">
+                <p id="a">Item</p>
+                <p id="a1">Turmeric-Ginger Chicken Soup</p>
+                <img id="pic1" src="https://20fix.com/xfood/img/turmeric-ginger-chicken-soup.jpg">
+                <div id=ingridients><details><summary>INGRIDIENTS</summary>
+<pre>
+    1:"1 (3 1/2-4-pound) chicken"
+2:"2 medium onions, unpeeled, quartered"
+3:"2 heads of garlic, halved crosswise"
+4:"1 (4-inch) piece ginger, unpeeled, thinly sliced"
+5:"3 dried bay leaves"
+6:"1 tablespoon ground turmeric"
+7:"2 teaspoons black peppercorns"
+8:"2 teaspoons coriander seeds"
+9:"Kosher salt"
+10:"12 ounces carrots (about 4 medium), peeled, cut into 1/2-inch pieces on a diagonal"
+11:"8 ounces dried udon noodles"
+12:"Scallions, very thinly sliced"
+13:"Chili oil (for serving)"
+</pre>
+                </details></div>
+                <div id="INSTRUCTIONS">
+                    <details><summary>INSTRUCTIONS</summary>
+                        <summary><p id=b>Place chicken, onions, garlic, ginger, bay leaves, turmeric, peppercorns, coriander seeds, and several pinches of salt in a large pot. Pour in cold water to cover and bring to a boil over medium heat. Reduce heat and gently simmer until an instant-read thermometer inserted into the thickest part of breast registers 155°F, 30–35 minutes. Transfer chicken to a plate and let cool slightly; keep stock simmering. Remove skin from chicken; discard. Pull meat from bones and shred into bite-size pieces; set aside. Return bones and carcass to stock. </p></summary>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main" id="specials">
+        <div class="cards">
+            <div id="card1">
+                <p id="a">Item</p>
+                <p id="a1">Chicken Soup with Caramelized Ginger</p>
+                <img id="pic1" src="https://20fix.com/xfood/img/chicken-soup-with-caramelized-ginger.jpg">
+                <div id=ingridients><details><summary>INGRIDIENTS</summary>
+<pre>
+    1:"1/2 bunch cilantro, divided"
+    2:"2 Tbsp. sugar"
+    3:"1 (6") piece ginger, peeled, thinly sliced<br>into rounds"
+    4:"3 garlic cloves, thinly sliced"
+    5:"4 scallions, pale-green and white parts left whole,<br>dark-green parts thinly sliced lengthwise"
+    6:"1 1/2 lb. skinless, boneless chicken thighs"
+    7:"1 Fresno chile, halved, seeds removed"
+    8:"Kosher salt"
+    9:"2 Tbsp. soy sauce"
+    10:"Freshly ground black pepper"
+</pre>
+                </details></div>
+                <div id="INSTRUCTIONS">
+                    <details><summary>INSTRUCTIONS</summary>
+                        <summary><p id=b>"Gather half of cilantro into a bundle and tie together with kitchen twine. Coarsely chop remaining cilantro (stems and all); set aside for serving. Heat sugar and 3 Tbsp. water in a large saucepan over medium. Cook, stirring often, until sugar dissolves, about 2 minutes. Continue to cook, swirling pan occasionally, until syrup is golden amber, 4–6 minutes. Add ginger and cook, stirring occasionally, until ginger is softened slightly, about 5 minutes. Add garlic and pale-green and white scallion parts and cook, stirring often, until garlic is fragrant, about 2 minutes. </p></summary>
+                    </details>
+                </div>
+            </div>
+            <div id="card1">
+                <p id="a">Item</p>
+                <p id="a1">Feel-Good Chicken Soup</p>
+                <img id="pic1" src="https://20fix.com/xfood/img/feel-good-asian-style-chicken-soup-donna-hay.jpg">
+                <div id=ingridients><details><summary>INGRIDIENTS</summary>
+<pre>
+    1:"2 liters Asian-Style Poached Chicken stock"
+    2:"1 tablespoon finely shredded ginger"
+    3:"2 tablespoons soy sauce"
+    4:"1 bunch gai lan (Chinese broccoli) (300g), trimmed"
+    5:"1 quantity shredded Asian-Style Poached Chicken (see basic recipe), heated through"
+    6:"3 green onions (scallions), sliced"
+    7:"2 long green chiles, thinly sliced"
+</pre>
+                </details></div>
+                <div id="INSTRUCTIONS">
+                    <details><summary>INSTRUCTIONS</summary>
+                        <summary><p id=b>"Gather half of cilantro into a bundle and tie together with kitchen twine. Coarsely chop remaining cilantro (stems and all); set aside for serving. Heat sugar and 3 Tbsp. water in a large saucepan over medium. Cook, stirring often, until sugar dissolves, about 2 minutes. Continue to cook, swirling pan occasionally, until syrup is golden amber, 4–6 minutes. Add ginger and cook, stirring occasionally, until ginger is softened slightly, about 5 minutes. Add garlic and pale-green and white scallion parts and cook, stirring often, until garlic is fragrant, about 2 minutes. </p></summary>
+                    </details>
+                </div>
+            </div>
+            <div id="card1">
+                <p id="a">Item</p>
+                <p id="a1">Gingery Chicken Soup with Zucchini “Noodles</p>
+                <img id="pic1" src="https://20fix.com/xfood/img/gingery-chicken-soup-with-zucchini-noodles.jpg">
+                <div id=ingridients><details><summary>INGRIDIENTS</summary>
+<pre>
+    1:"4 medium carrots (about 1 1/4 pounds), divided"
+2:"3 (3") pieces ginger, unpeeled"
+3:"1 (3 1/2-4 pound) whole chicken"
+4:"1 medium onion, unpeeled, cut into sixths"
+5:"3 celery stalks, cut into 2" pieces"
+6:"1 head of garlic, halved crosswise"
+7:"1 tablespoon black peppercorns"
+8:"Handful of cilantro stems, plus leaves (for serving; optional)"
+9:"2 medium zucchini (about 10 ounces)"
+10:"2 teaspoons kosher salt, plus more"
+11:"3/4 teaspoon freshly ground black pepper, plus more"
+12:"Lime wedges (for serving; optional)"
+13:"A large stockpot (at least 8 quarts)
+</pre>
+                </details></div>
+                <div id="INSTRUCTIONS">
+                    <details><summary>INSTRUCTIONS</summary>
+                        <summary><p id=b>"Scrub 2 carrots and cut into 2" pieces. Finely grate ginger to yield 1 tsp., then thinly slice remaining ginger. Place chopped carrots, ginger slices, chicken, onion, celery, garlic, peppercorns, and cilantro stems, if using, in stockpot. Fill with cold (preferably filtered) water to cover (about 4 quarts). Cover and heat over high until mixture comes to a low boil. Immediately reduce heat to medium-low and bring to a simmer.</p></summary>
+                    </details>
+                </div>
+            </div>
+            <div id="card1">
+                <p id="a">Item</p>
+                <p id="a1">Turmeric-Ginger Chicken Soup</p>
+                <img id="pic1" src="https://20fix.com/xfood/img/turmeric-ginger-chicken-soup.jpg">
+                <div id=ingridients><details><summary>INGRIDIENTS</summary>
+<pre>
+    1:"1 (3 1/2-4-pound) chicken"
+2:"2 medium onions, unpeeled, quartered"
+3:"2 heads of garlic, halved crosswise"
+4:"1 (4-inch) piece ginger, unpeeled, thinly sliced"
+5:"3 dried bay leaves"
+6:"1 tablespoon ground turmeric"
+7:"2 teaspoons black peppercorns"
+8:"2 teaspoons coriander seeds"
+9:"Kosher salt"
+10:"12 ounces carrots (about 4 medium), peeled, cut into 1/2-inch pieces on a diagonal"
+11:"8 ounces dried udon noodles"
+12:"Scallions, very thinly sliced"
+13:"Chili oil (for serving)"
+</pre>
+                </details></div>
+                <div id="INSTRUCTIONS">
+                    <details><summary>INSTRUCTIONS</summary>
+                        <summary><p id=b>Place chicken, onions, garlic, ginger, bay leaves, turmeric, peppercorns, coriander seeds, and several pinches of salt in a large pot. Pour in cold water to cover and bring to a boil over medium heat. Reduce heat and gently simmer until an instant-read thermometer inserted into the thickest part of breast registers 155°F, 30–35 minutes. Transfer chicken to a plate and let cool slightly; keep stock simmering. Remove skin from chicken; discard. Pull meat from bones and shred into bite-size pieces; set aside. Return bones and carcass to stock. </p></summary>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
