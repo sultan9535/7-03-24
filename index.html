@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage2</title>
+</head>
+<style>
+    .nav{
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        background-color: white;
+        z-index: 1;
+        top: 0px;
+        padding: 0px 100px 0px 0px;
+        height: 50px;
+    }
+    #a{
+        width: 50px;
+        margin-left: 100px;
+    }
+    #b{
+        font-size:20px;
+        margin-left: 400px;
+    }
+    #c{
+        font-size:20px;
+        margin-left: 500px;
+    }
+    .cards-a{
+        display: flex;
+        margin-top: 150px;
+        justify-content:space-around;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    #card1
+
+    #pic1{
+      padding-left: 40px;
+    }
+    #pic2{
+      padding-left: 30px;
+    }
+    #pic3{
+      padding-left: 15px;
+    }
+    #pic4{
+      padding-left: 15px;
+    }
+    #a1{
+        text-align: center;
+    }
+    #a2{
+        text-align: center;
+        font-size: 12px;
+        color: grey;
+        letter-spacing: 0.1px;
+
+    }
+    #b1{
+        text-align: center;
+    }
+    #b2{
+        text-align: center;
+        font-size: 12px;
+        color: grey;
+        letter-spacing: 0.1px;
+    }
+    #c1{
+        text-align: center;
+    }
+    #c2{
+        text-align: center;
+        font-size: 12px;
+        color: grey;
+        letter-spacing: 0.1px;
+    }
+    #d1{
+        text-align: center;
+    }
+    #d2{
+        text-align: center;
+        font-size: 12px;
+        color: grey;
+        letter-spacing: 0.1px;
+    }
+    .cards-b{
+        display: flex;
+        margin-top: 50px;
+        justify-content:space-around;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .pages{
+        text-align: center;
+    }
+    #x{
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+    }
+    #x:hover{
+        background-color: black;
+        color: white;
+    }
+    #y{
+        padding: 10px;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    #y:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    .line{
+        padding:40px 200px 0px 200px;
+        color: gray;
+    }
+    .pages{
+        margin-top: 50px;
+    }
+    #about{
+        text-align: center;
+        margin-top: 50px;
+    }
+    #chefpic{
+        width: 600px;
+        height: 400px;
+        margin-left: 350px;
+        padding-top: 20px;
+    }
+    #aa{
+        text-align: center;
+        font-weight: bold;
+    }
+    #bb{
+        text-align: center;
+        font-style: italic;
+    }
+    #cc{
+        text-align: center;
+        font-size: 14px;
+        color: gray;
+    }
+    .footer{
+        display: flex;
+        padding: 50px 150px 30px 150px;
+        justify-content: space-around;
+    }
+    #xx{
+        font-size: 18px;
+    }
+    #yy{
+        font-size: 13px;
+        color: gray;
+        line-height: 20px;
+    }
+    #zz{
+        font-size: 13px;
+    }
+    #name{
+        color: black;
+    }
+    #yyy{
+        width: 40px;
+        height: 40px;
+    }
+    #zzz{
+        width: 40px;
+        height: 40px;
+    }
+   #img1{
+    display: flex;
+    padding: 15px 80px 15px 10px;
+   }
+   #img1:hover{
+    background-color: rgb(219, 215, 215);
+   }
+   
+   #img2{
+    display: flex;
+    padding: 15px 80px 15px 10px;
+   }
+   #img2:hover{
+    background-color: rgb(206, 200, 200);
+   }
+   #m{
+    padding-left: 10px;
+    font-size: 15px;
+   }
+   #q{
+    font-size: 10px;
+    padding: 1px 4px 1px 4px;
+    background-color:rgb(44, 42, 42);
+    color: white;
+    margin: 3px;
+   }
+   #q:hover{
+    background-color: black;
+    color: white;
+   }
+   #o{
+    font-size: 10px;
+    padding: 2px;
+    background-color:black;
+    color: white;
+    margin: 3px;
+   }
+   #card1:hover{
+    margin-top: -10px;
+    margin-left: 20px;
+    transition: 0.4s;
+    transform: rotateX(10deg);
+    box-shadow:5px 5px 5px  black;
+   }
+   #card2:hover{
+    margin-top: -10px;
+    margin-left: 20px;
+    transition: 0.4s;
+    transform: rotateX(10deg);
+    box-shadow:5px 5px 5px  black;
+   }
+   #card3:hover{
+    margin-top: -10px;
+    margin-left: 20px;
+    transition: 0.4s;
+    transform: rotateX(10deg);
+    box-shadow:5px 5px 5px  black;
+   }
+   #card4:hover{
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: 0.4s;
+    transform: rotateX(10deg);
+    box-shadow:5px 5px 5px black;
+   }
+
+
+</style>
+<body>
+    <div class="main">
+    <div class="nav">
+        <img id="a" src="../images/3169290-200.png">
+        <p id="b">My Food</p>
+        <p id="c">Mail</p>
+    </div>
+    <div class="cradsmain">
+        <div class="cards-a">
+            <div id="card1">
+            <img id=pic1 src="https://www.w3schools.com/w3images/sandwich.jpg"width=200 height="300">
+            <div id="matter1">
+                <p id="a1">The Perfect Sandwich,<br> A Real NYC Classic</p>
+                <p id="a2">Just some random text, lorem ipsum text<br>praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+        <div id="card2">
+            <img id=pic2 src="https://www.w3schools.com/w3images/steak.jpg"width=200 height="300">
+            <div id="matter2">
+                <p id="b1">Let Me Tell You About<br> This Steak</p>
+                <p id="b2">Once again, some random text to lorem<br>lorem lorem lorem ipsum text praesent<br> tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+        <div id="card3">
+            <img id=pic3 src="https://www.w3schools.com/w3images/cherries.jpg"width=200 height="300">
+            <p id="c1">Cherries, interrupted</p>
+            <p id="c2">Lorem ipsum text praesent tincidunt <br>ipsum lipsum.</p>
+        </div>
+        <div id="card4">
+            <img id=pic4 src="https://www.w3schools.com/w3images/wine.jpg"width=200 height="300">
+            <p id="d1">Once Again, Robust Wine <br>and Vegetable Pasta</p>
+            <p id="d2">Lorem ipsum text praesent tincidunt <br>ipsum lipsum.</p>
+        </div>
+        </div>
+        <div class="cards-b">
+            <div id="card1">
+            <img id=pic1 src="https://www.w3schools.com/w3images/popsicle.jpg"width=200 height="300">
+            <div id="matter1">
+                <p id="a1">The Perfect Sandwich,<br> A Real NYC Classic</p>
+                <p id="a2">Just some random text, lorem ipsum text<br>praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+        <div id="card2">
+            <img id=pic2 src="https://www.w3schools.com/w3images/salmon.jpg"width=200 height="300">
+            <div id="matter2">
+                <p id="b1">Let Me Tell You About<br> This Steak</p>
+                <p id="b2">Once again, some random text to lorem<br>lorem lorem lorem ipsum text praesent<br> tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+        <div id="card3">
+            <img id=pic3 src="https://www.w3schools.com/w3images/sandwich.jpg"width=200 height="300">
+            <p id="c1">Cherries, interrupted</p>
+            <p id="c2">Lorem ipsum text praesent tincidunt <br>ipsum lipsum.</p>
+        </div>
+        <div id="card4">
+            <img id=pic4 src="https://www.w3schools.com/w3images/croissant.jpg"width=200 height="300">
+            <p id="d1">Once Again, Robust Wine <br>and Vegetable Pasta</p>
+            <p id="d2">Lorem ipsum text praesent tincidunt <br>ipsum lipsum.</p>
+        </div>
+        </div>
+    </div>
+    <div class="pages">
+        <a id="y" href="#"><<</a>
+        <a id="x" href="#">1</a>
+        <a id="x" href="#">2</a>
+        <a id="x" href="#">3</a>
+        <a id="y" href="#">>></a>
+    </div>
+    <div class="line">
+        <hr>
+    </div>
+    <p id="about">About Me, The Food Man</p>
+    <img id="chefpic" src="https://www.w3schools.com/w3images/chef.jpg">
+    <p id="aa">I am Who I Am!</p>
+    <p id="bb">With Passion For Real, Good Food</p>
+    <p id="cc">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world<br> with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus <br>ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    <div class="line">
+        <hr>
+    </div>
+    <div class="footer">
+    <div class="box1">
+        <p id="xx">FOOTER</p>
+        <p id="yy">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo<br> condimentum, porta lectus vitae, ultricies congue<br> gravida diam non fringilla.</p>
+        <p id="yy">Powered by <a id="name" href="#">Sultan Sayyad</a></p>
+    </div>
+    <div class="box2">
+        <p id="xxx">BLOG POSTS</p>
+        <div id="img1">
+        <img id="yyy" src="https://www.w3schools.com/w3images/workshop.jpg">
+        
+        <div id="m">
+        <span>Lorem<br>Sed mattis nunc</span>
+        </div></div>
+        <hr>
+        <div id="img2">
+        <img id="yyy" src="https://www.w3schools.com/w3images/gondol.jpg">
+        <div id="m">
+        <span>Ipsum<br>Praes tinci sed</span>
+    </div></div>
+    </div>
+    <div class="box3">
+        <p id="aaa">POPULAR TAGS</p>
+        <span id="o">Travel</span><span id="q">NewYork</span><span id="q">Dinner</span><span id="q">Salmon</span><span id="q">France</span><br><br>
+        <span id="q">Ideas</span><span id="q">Flavors</span><span id="q">Cuisines</span><span id="q">Chicken</span><span id="q">Dressing</span><span id="q">Fried</span><span id="q">Fish</span><br><br><span id="q">Duck</span>
+
+    </div>
+    </div>
+    </div>
+</body>
+</html>
